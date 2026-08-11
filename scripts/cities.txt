@@ -1,0 +1,714 @@
+# Sample of place names used by verify_geocoding.py to measure how much of the
+# world the weather command can actually reach. Lines beginning with '#' and
+# blank lines are ignored. Duplicates across regions are removed by the script.
+#
+# This file is a test fixture, not application data: nothing in the running
+# program reads it, and no city name is hard-coded anywhere in chatterbuddy/.
+
+# --- Canada ---
+Toronto
+Mississauga
+Brampton
+Markham
+Vaughan
+Richmond Hill
+Oakville
+Burlington
+Hamilton
+Kitchener
+Waterloo
+Cambridge
+Guelph
+London
+Windsor
+Barrie
+Oshawa
+Whitby
+Ajax
+Pickering
+Kingston
+Ottawa
+Sudbury
+Thunder Bay
+Montreal
+Quebec City
+Laval
+Gatineau
+Sherbrooke
+Trois-Rivieres
+Halifax
+Moncton
+Fredericton
+Saint John
+Charlottetown
+Winnipeg
+Regina
+Saskatoon
+Calgary
+Edmonton
+Red Deer
+Lethbridge
+Vancouver
+Surrey
+Burnaby
+Richmond
+Victoria
+Kelowna
+Abbotsford
+Nanaimo
+Whitehorse
+Yellowknife
+Iqaluit
+
+# --- United States ---
+New York
+Los Angeles
+Chicago
+Houston
+Phoenix
+Philadelphia
+San Antonio
+San Diego
+Dallas
+San Jose
+Austin
+Jacksonville
+Fort Worth
+Columbus
+Charlotte
+San Francisco
+Indianapolis
+Seattle
+Denver
+Washington
+Boston
+El Paso
+Nashville
+Detroit
+Oklahoma City
+Portland
+Las Vegas
+Memphis
+Louisville
+Baltimore
+Milwaukee
+Albuquerque
+Tucson
+Fresno
+Sacramento
+Kansas City
+Mesa
+Atlanta
+Omaha
+Colorado Springs
+Raleigh
+Virginia Beach
+Long Beach
+Miami
+Oakland
+Minneapolis
+Tulsa
+Bakersfield
+Wichita
+Arlington
+Aurora
+Tampa
+New Orleans
+Cleveland
+Honolulu
+Anaheim
+Lexington
+Stockton
+Corpus Christi
+Henderson
+Riverside
+Newark
+Santa Ana
+Cincinnati
+Irvine
+Orlando
+Pittsburgh
+Greensboro
+Jersey City
+Anchorage
+Lincoln
+Plano
+Durham
+Buffalo
+Chandler
+Chula Vista
+Toledo
+Madison
+Gilbert
+Reno
+Fort Wayne
+Lubbock
+Irving
+Laredo
+Winston-Salem
+Chesapeake
+Glendale
+Scottsdale
+Garland
+Boise
+Norfolk
+Spokane
+Fremont
+Huntsville
+Salt Lake City
+Des Moines
+Grand Rapids
+Little Rock
+Providence
+Charleston
+Knoxville
+Worcester
+Chattanooga
+Savannah
+Syracuse
+Dayton
+Akron
+Jackson
+Montgomery
+Columbia
+Springfield
+Eugene
+Fargo
+Billings
+Sioux Falls
+Cheyenne
+
+# --- Mexico, Central America, Caribbean ---
+Mexico City
+Guadalajara
+Monterrey
+Puebla
+Tijuana
+Leon
+Zapopan
+Merida
+Cancun
+Queretaro
+Guatemala City
+San Salvador
+Tegucigalpa
+Managua
+San Jose de Costa Rica
+Panama City
+Belize City
+Havana
+Santo Domingo
+Port-au-Prince
+San Juan
+Nassau
+Bridgetown
+Willemstad
+Oranjestad
+Castries
+Roseau
+Basseterre
+
+# --- South America ---
+Sao Paulo
+Rio de Janeiro
+Brasilia
+Salvador
+Fortaleza
+Belo Horizonte
+Manaus
+Curitiba
+Recife
+Porto Alegre
+Buenos Aires
+Cordoba
+Rosario
+Mendoza
+La Plata
+Santiago
+Valparaiso
+Concepcion
+Lima
+Arequipa
+Cusco
+Trujillo
+Bogota
+Medellin
+Cali
+Barranquilla
+Cartagena
+Caracas
+Maracaibo
+Valencia
+Quito
+Guayaquil
+La Paz
+Santa Cruz
+Sucre
+Asuncion
+Montevideo
+Georgetown
+Paramaribo
+Cayenne
+
+# --- United Kingdom and Ireland ---
+Birmingham
+Manchester
+Liverpool
+Leeds
+Sheffield
+Bristol
+Newcastle
+Nottingham
+Leicester
+Southampton
+Portsmouth
+Brighton
+Oxford
+York
+Bath
+Norwich
+Coventry
+Plymouth
+Edinburgh
+Glasgow
+Aberdeen
+Dundee
+Inverness
+Cardiff
+Swansea
+Newport
+Belfast
+Dublin
+Cork
+Galway
+Limerick
+Waterford
+
+# --- Western and Southern Europe ---
+Paris
+Marseille
+Lyon
+Toulouse
+Nice
+Nantes
+Strasbourg
+Montpellier
+Bordeaux
+Lille
+Rennes
+Toulon
+Berlin
+Hamburg
+Munich
+Cologne
+Frankfurt
+Stuttgart
+Dusseldorf
+Dortmund
+Essen
+Leipzig
+Bremen
+Dresden
+Hanover
+Nuremberg
+Amsterdam
+Rotterdam
+The Hague
+Utrecht
+Eindhoven
+Groningen
+Brussels
+Antwerp
+Ghent
+Bruges
+Liege
+Luxembourg
+Zurich
+Geneva
+Basel
+Bern
+Lausanne
+Lucerne
+Vienna
+Graz
+Linz
+Salzburg
+Innsbruck
+Madrid
+Barcelona
+Seville
+Zaragoza
+Malaga
+Bilbao
+Palma
+Granada
+Alicante
+Lisbon
+Porto
+Coimbra
+Braga
+Faro
+Rome
+Milan
+Naples
+Turin
+Palermo
+Genoa
+Bologna
+Florence
+Venice
+Verona
+Bari
+Catania
+Athens
+Thessaloniki
+Patras
+Heraklion
+Nicosia
+Valletta
+Andorra la Vella
+Monaco
+San Marino
+Vaduz
+
+# --- Nordics ---
+Stockholm
+Gothenburg
+Malmo
+Uppsala
+Oslo
+Bergen
+Trondheim
+Stavanger
+Copenhagen
+Aarhus
+Odense
+Aalborg
+Helsinki
+Espoo
+Tampere
+Turku
+Oulu
+Reykjavik
+Nuuk
+Torshavn
+
+# --- Central and Eastern Europe ---
+Warsaw
+Krakow
+Lodz
+Wroclaw
+Poznan
+Gdansk
+Prague
+Brno
+Ostrava
+Bratislava
+Kosice
+Budapest
+Debrecen
+Bucharest
+Cluj-Napoca
+Timisoara
+Iasi
+Sofia
+Plovdiv
+Varna
+Belgrade
+Novi Sad
+Zagreb
+Split
+Rijeka
+Ljubljana
+Maribor
+Sarajevo
+Banja Luka
+Skopje
+Podgorica
+Tirana
+Pristina
+Vilnius
+Kaunas
+Riga
+Tallinn
+Minsk
+Kyiv
+Kharkiv
+Odesa
+Lviv
+Dnipro
+Chisinau
+Moscow
+Saint Petersburg
+Novosibirsk
+Yekaterinburg
+Kazan
+Sochi
+Vladivostok
+
+# --- Middle East and Caucasus ---
+Istanbul
+Ankara
+Izmir
+Antalya
+Bursa
+Adana
+Tel Aviv
+Jerusalem
+Haifa
+Amman
+Beirut
+Damascus
+Baghdad
+Basra
+Erbil
+Kuwait City
+Riyadh
+Jeddah
+Mecca
+Medina
+Dammam
+Doha
+Manama
+Abu Dhabi
+Dubai
+Sharjah
+Muscat
+Sanaa
+Tehran
+Isfahan
+Mashhad
+Shiraz
+Tabriz
+Baku
+Yerevan
+Tbilisi
+
+# --- Africa ---
+Cairo
+Alexandria
+Giza
+Casablanca
+Rabat
+Marrakesh
+Fez
+Tangier
+Algiers
+Oran
+Tunis
+Sfax
+Tripoli
+Benghazi
+Khartoum
+Addis Ababa
+Nairobi
+Mombasa
+Kampala
+Kigali
+Dar es Salaam
+Dodoma
+Lusaka
+Harare
+Gaborone
+Windhoek
+Maputo
+Antananarivo
+Port Louis
+Johannesburg
+Cape Town
+Durban
+Pretoria
+Bloemfontein
+Lagos
+Abuja
+Kano
+Ibadan
+Accra
+Kumasi
+Abidjan
+Yamoussoukro
+Dakar
+Bamako
+Ouagadougou
+Niamey
+Conakry
+Freetown
+Monrovia
+Lome
+Cotonou
+Douala
+Yaounde
+Libreville
+Brazzaville
+Kinshasa
+Luanda
+Bangui
+Djibouti
+Mogadishu
+Asmara
+
+# --- South Asia ---
+Mumbai
+Delhi
+Bengaluru
+Hyderabad
+Ahmedabad
+Chennai
+Kolkata
+Surat
+Pune
+Jaipur
+Lucknow
+Kanpur
+Nagpur
+Indore
+Bhopal
+Visakhapatnam
+Patna
+Vadodara
+Ghaziabad
+Ludhiana
+Agra
+Nashik
+Faridabad
+Meerut
+Rajkot
+Varanasi
+Amritsar
+Chandigarh
+Coimbatore
+Kochi
+Thiruvananthapuram
+Guwahati
+Karachi
+Lahore
+Faisalabad
+Rawalpindi
+Islamabad
+Multan
+Peshawar
+Quetta
+Dhaka
+Chittagong
+Sylhet
+Kathmandu
+Pokhara
+Colombo
+Kandy
+Male
+Thimphu
+Kabul
+Kandahar
+
+# --- East Asia ---
+Beijing
+Shanghai
+Guangzhou
+Shenzhen
+Chengdu
+Chongqing
+Tianjin
+Wuhan
+Xian
+Hangzhou
+Nanjing
+Shenyang
+Qingdao
+Suzhou
+Harbin
+Kunming
+Xiamen
+Hong Kong
+Macau
+Taipei
+Kaohsiung
+Taichung
+Tokyo
+Yokohama
+Osaka
+Nagoya
+Sapporo
+Fukuoka
+Kobe
+Kyoto
+Kawasaki
+Hiroshima
+Sendai
+Seoul
+Busan
+Incheon
+Daegu
+Daejeon
+Gwangju
+Pyongyang
+Ulaanbaatar
+
+# --- Southeast and Central Asia ---
+Bangkok
+Chiang Mai
+Phuket
+Pattaya
+Hanoi
+Ho Chi Minh City
+Da Nang
+Hue
+Phnom Penh
+Siem Reap
+Vientiane
+Yangon
+Naypyidaw
+Mandalay
+Kuala Lumpur
+George Town
+Johor Bahru
+Kuching
+Kota Kinabalu
+Singapore
+Jakarta
+Surabaya
+Bandung
+Medan
+Semarang
+Denpasar
+Makassar
+Manila
+Quezon City
+Cebu
+Davao
+Bandar Seri Begawan
+Dili
+Tashkent
+Samarkand
+Almaty
+Astana
+Bishkek
+Dushanbe
+Ashgabat
+
+# --- Oceania ---
+Sydney
+Melbourne
+Brisbane
+Perth
+Adelaide
+Gold Coast
+Canberra
+Wollongong
+Hobart
+Darwin
+Cairns
+Townsville
+Geelong
+Auckland
+Wellington
+Christchurch
+Dunedin
+Tauranga
+Queenstown
+Suva
+Port Moresby
+Noumea
+Papeete
+Apia
+Honiara
+Port Vila
