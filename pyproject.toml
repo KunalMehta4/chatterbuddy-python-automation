@@ -1,0 +1,37 @@
+[project]
+name = "chatterbuddy"
+version = "1.0.0"
+description = "A command-line personal automation assistant: weather, web search, contacts, tasks, and alarms."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Kunal Mehta" }]
+license = { text = "MIT" }
+dependencies = ["requests>=2.32", "python-dotenv>=1.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "responses>=0.25", "ruff>=0.8"]
+
+[project.scripts]
+chatterbuddy = "main:main"
+
+[project.urls]
+Repository = "https://github.com/KunalMehta4/chatterbuddy-python-automation"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["chatterbuddy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
